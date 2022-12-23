@@ -1,0 +1,44 @@
+nav li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.drop>a {
+    background-color: tomato;
+    padding: 10px 20px;
+    color: azure;
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: orange;
+    padding: 0px;
+    margin: 0 0 0 15px;
+}
+
+.drop:hover>ul {
+    display: block;
+}
+
+.dropdown>li>a {
+    color: azure;
+}
+
+.dropdown li {
+    padding: 5px;
+    
+    }
+    
+    
